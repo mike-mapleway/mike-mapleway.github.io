@@ -1,0 +1,271 @@
+/* Have fun adding your style here :) - PS: At all times this file should contain a comment or a rule, otherwise opera might act buggy :( */
+
+/* General Custom CSS */
+
+// colors -----------------
+// red: #ba2328;
+// brown: 6f5d4c;
+// lighttan: #edebe5;
+
+
+//
+// font-family: 'Oswald', sans-serif;
+// font-family: 'Roboto Slab', serif;
+// font-family: 'Roboto', sans-serif;
+// font-family: 'Roboto Condensed', sans-serif;
+
+body {
+	max-width: 1600px;
+	margin:0 auto;
+}
+h1.cp-pages {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 28px;
+	color: #ba2328;
+
+}
+.logo img {
+	padding: 20px 0;
+	// width: 70%;
+}
+.phone-info span {
+	font-size: 16px;
+	color: #ba2328;
+}
+.av_seperator_small_border .av-main-nav > li > a > .avia-menu-text {
+    font-family: 'Roboto', sans-serif;
+    color: #363636;
+    font-size: 15px;
+    font-weight: normal;
+	
+}
+.iconbox .iconbox_content .iconbox_content_title {
+	color: #ba2328;
+}
+p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+}
+p.home-intro {
+	font-family: 'Roboto Slab', serif;
+	color: #ba2328;
+    	font-size: 27px;
+    	padding: 0 10%;
+    	margin: 0;
+}
+.template-page.content.av-content-full.alpha.units {
+	padding-bottom: 10px;
+}
+#cp-homeicon {
+	margin-bottom: 20px;
+}
+#cp-homeicon .avia-image-container.avia-align-center {
+	width:100%;
+	max-width: 120px;
+}
+#cp-homeicon .avia-image-container.avia-align-center .avia-image-container-inner {
+	width: 120px;
+	text-align: center;
+
+}
+#cp-homeicon .avia-image-container.avia-align-center .avia-image-container-inner img {
+	margin: 0 auto;
+
+}
+.av-special-heading.modern-centered {
+	margin-top: 15px;
+	padding-bottom: 0;
+}
+.av-special-heading.modern-centered h4 {
+	text-transform: uppercase;
+	font-size: 20px;
+	color: #ba2328;
+	font-weight: bold;
+	font-family: 'Roboto Condensed';
+}
+h3.av-special-heading-tag {
+	font-weight: bold;
+	font-family: 'Roboto Condensed';
+	color: #363636;
+
+}
+p.excerpt {
+	font-family: 'Roboto Slab', serif;
+	color: #ba2328;
+    	font-size: 19px;
+    	line-height: 1.7;	
+}
+// div#after_submenu {
+// 	background-color: #edebe5;
+// 	border: 10px solid white;
+// }
+// div#after_submenu h3{
+// 	font-weight: bold;
+// 	font-family: 'Roboto Condensed';
+// 	color: #363636;
+// }
+#cp-home-gasproducts-top {
+	background-color: #edebe5;
+	border: 10px solid white;
+	border-bottom: 0;
+	margin-bottom: 0;
+}
+#cp-home-gasproducts-top h3 {
+	font-weight: bold;
+	font-family: 'Roboto Condensed';
+	color: #363636;
+	font-size: 22px;
+}
+#cp-home-gasproducts-bottom {
+	background-color: #edebe5;
+	border: 10px solid white;
+	border-top: 0;
+	margin-top: 0;
+}
+
+p.sub-excerpt {
+	font-family: 'Roboto Slab', serif;
+	color: #363636;
+    	font-size: 17px;
+    	line-height: 1.7;
+    	margin-bottom: 0;	
+}
+
+// - SIDEBAR -----//
+
+h3.widgettitle {
+	color: #6f5d4c;
+	font-size: 18px;
+}
+section#text-4 {
+
+}
+p.widget-phone {
+	color: #ba2328;
+	font-size: 26px;
+	font-weight: bold;
+		
+}
+input[type="submit"], #submit, .button {
+	width: 150px;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+// --- Pages ---//
+
+.cp-service-list {
+	margin-top: 0;
+
+}
+.cp-service-list h6 {
+	line-height: 2;
+	font-size: 18px;
+}
+.cp-content p {
+	font-size: 15px;
+}
+// --- FOOTER ---- //
+
+section#text-5 {
+	text-align: center;
+} 
+
+img.footer-angieslist {
+	display: inline-block;
+	width: 44%;
+	// max-width: 150px;
+	height: auto;
+
+}
+img.footer-readerschoice {
+	display: inline-block;
+	width: 40%;
+	// max-width: 134px;
+	height: auto;
+	margin-left: 10px;
+
+}
+/*
+Desktop Styles
+================================================== */
+/* Note: Add new css to the media query below that you want to only effect the desktop view of your site */
+
+@media (min-width: 768px) and (max-width: 990px) {
+	.logo img {
+		padding: 22px 0;
+		// width: 55%;
+	}
+	.av_seperator_small_border .av-main-nav > li > a > .avia-menu-text {
+    		font-size: 13px;
+
+	}
+	p.widget-phone {
+
+	font-size: 18px;
+
+		
+	}
+	img.footer-angieslist {
+	display: inline-block;
+	width: 44%;
+	// max-width: 150px;
+	height: auto;
+
+}
+	img.footer-readerschoice {
+		display: inline-block;
+		width: 40%;
+		// max-width: 134px;
+		height: auto;
+		margin-left: 10px;
+
+	}
+	
+
+}
+
+@media only screen and (min-width: 768px) {
+  /* Add your Desktop Styles here */
+
+	
+}
+
+
+
+
+
+/*
+Mobile Styles
+================================================== */
+/* Note: Add new css to the media query below that you want to only effect the Mobile and Tablet Portrait view */
+
+@media only screen and (max-width: 767px) {
+  /* Add your Mobile Styles here */
+	img.footer-angieslist {
+		width: 33%;
+		margin:0 auto;
+
+	}
+	img.footer-readerschoice {
+		width: 29%;
+		margin:0 auto;
+		
+	}
+
+}
+@media only screen and (max-width: 560px) {
+  /* Add your Mobile Styles here */
+	img.footer-angieslist {
+		width: 40%;
+		margin:0 auto;
+
+	}
+	img.footer-readerschoice {
+		width: 38%;
+		margin:0 auto;
+		
+	}
+
+}
